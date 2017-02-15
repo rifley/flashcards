@@ -1,19 +1,21 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.row {
+  margin-top: 15px;
+}
 .card {
   border: 1px solid red;
   cursor: crosshair;
+  background-image: url("../img/notecard.png");
+  height: 300px;
+  text-align: center;
 }
 
-#result1{
-  display: none;
-}
-
-#result2{
-  display: none;
-}
-#result3{
-  display: none;
-}
-
-#result4{
+#result1, #result2, #result3, #result4{
   display: none;
 }
